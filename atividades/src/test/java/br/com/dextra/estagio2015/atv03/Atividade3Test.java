@@ -2,7 +2,6 @@ package br.com.dextra.estagio2015.atv03;
 
 import static org.junit.Assert.*;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 public class Atividade3Test {

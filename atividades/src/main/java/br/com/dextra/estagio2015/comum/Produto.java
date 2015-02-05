@@ -12,38 +12,55 @@ import br.com.dextra.estagio2015.atv07.TipoProduto;
 
 @Entity
 public class Produto {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	
+
 	@Column
 	private String nome;
-	
+
 	@Column
 	private String descricao;
-	
+
 	@Column
 	private double preco;
-	
+
 	@Column
 	private double peso;
-	
+
 	@Column
 	private double altura;
-	
+
 	@Column
 	private double largura;
-	
+
 	@Column
 	private double comprimento;
-	
+
 	@Column
 	@Enumerated(EnumType.STRING)
 	private TipoProduto tipoProduto;
-	
+
 	@Column
 	private Boolean promocao;
+
+	public Produto() {
+	}
+
+	public Produto(String nome, String descricao, double preco, double peso, double altura, double largura,
+			double comprimento, TipoProduto tipoProduto, Boolean promocao) {
+		super();
+		this.nome = nome;
+		this.descricao = descricao;
+		this.preco = preco;
+		this.peso = peso;
+		this.altura = altura;
+		this.largura = largura;
+		this.comprimento = comprimento;
+		this.tipoProduto = tipoProduto;
+		this.promocao = promocao;
+	}
 
 	public Long getId() {
 		return id;
