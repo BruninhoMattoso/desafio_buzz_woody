@@ -10,6 +10,11 @@ import javax.persistence.Id;
 
 import br.com.dextra.estagio2015.atv07.TipoProduto;
 
+/**
+ * 
+ *
+ */
+
 @Entity
 public class Produto {
 
@@ -36,7 +41,7 @@ public class Produto {
 	private double largura;
 
 	@Column
-	private double comprimento;
+	private Integer comprimento;
 
 	@Column
 	@Enumerated(EnumType.STRING)
@@ -49,7 +54,7 @@ public class Produto {
 	}
 
 	public Produto(String nome, String descricao, double preco, double peso, double altura, double largura,
-			double comprimento, TipoProduto tipoProduto, Boolean promocao) {
+			int comprimento, TipoProduto tipoProduto, Boolean promocao) {
 		super();
 		this.nome = nome;
 		this.descricao = descricao;
@@ -118,11 +123,11 @@ public class Produto {
 		this.largura = largura;
 	}
 
-	public double getComprimento() {
+	public int getComprimento() {
 		return comprimento;
 	}
 
-	public void setComprimento(double comprimento) {
+	public void setComprimento(int comprimento) {
 		this.comprimento = comprimento;
 	}
 

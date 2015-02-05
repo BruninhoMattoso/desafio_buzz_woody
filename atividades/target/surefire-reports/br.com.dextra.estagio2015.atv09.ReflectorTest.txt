@@ -1,11 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: br.com.dextra.estagio2015.atv09.ReflectorTest
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-=======
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
->>>>>>> 383f4c26927976de4a75668d36f16198c04f37d6
 getNextUsingReflector(br.com.dextra.estagio2015.atv09.ReflectorTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalAccessException: Class br.com.dextra.estagio2015.atv09.Reflector can not access a member of class java.util.ArrayList$Itr with modifiers "public"
 	at sun.reflect.Reflection.ensureMemberAccess(Reflection.java:109)
