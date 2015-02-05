@@ -1,8 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: br.com.dextra.estagio2015.atv12.KombiTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.099 sec <<< FAILURE!
 colocarSograNaKombi(br.com.dextra.estagio2015.atv12.KombiTest)  Time elapsed: 0.011 sec  <<< ERROR!
+=======
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+colocarSograNaKombi(br.com.dextra.estagio2015.atv12.KombiTest)  Time elapsed: 0 sec  <<< ERROR!
+>>>>>>> 383f4c26927976de4a75668d36f16198c04f37d6
 java.lang.RuntimeException: Opa! Kombi lotada
 	at br.com.dextra.estagio2015.atv12.Kombi.add(Kombi.java:13)
 	at br.com.dextra.estagio2015.atv12.KombiTest.colocarSograNaKombi(KombiTest.java:16)

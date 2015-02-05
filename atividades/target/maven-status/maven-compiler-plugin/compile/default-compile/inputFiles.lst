@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/vinicius.moreti/projetos/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/comum/JPA_DB_Utils.java
 /home/vinicius.moreti/projetos/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv13/Venda.java
 /home/vinicius.moreti/projetos/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv02/Filho.java
@@ -32,3 +33,39 @@
 /home/vinicius.moreti/projetos/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv12/Sogra.java
 /home/vinicius.moreti/projetos/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/comum/JPAUtils.java
 /home/vinicius.moreti/projetos/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/comum/Banco.java
+=======
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv08/ImageSenderClient.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv16/tv/Canal.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv08/Server.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv04/CaixaEletronico.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv16/ControleRemoto.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv03/BlackJack.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv07/Comparator.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/comum/Conta.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv09/Reflector.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv07/Atividade7.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv16/NumberUtils.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv15/Atividade15.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv13/Atividade13.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv10/CintoDoElvis.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv01/Atividade1.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/comum/JPA_DB_Utils.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv16/tv/Televisao.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/comum/Produto.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv13/VendaService.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv14/BlackJackEh21Agora.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/comum/JPAUtils.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv02/Filho.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv12/Sogra.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv02/Pai.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/comum/Cliente.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv07/ProdutoServiceImpl.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv13/Venda.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv12/Kombi.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/comum/Banco.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv13/ItemVenda.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv07/TipoProduto.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv08/ProtocoloDeMensagens.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv15/BlackJack.java
+/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades/src/main/java/br/com/dextra/estagio2015/atv16/tv/Volume.java
+>>>>>>> 383f4c26927976de4a75668d36f16198c04f37d6

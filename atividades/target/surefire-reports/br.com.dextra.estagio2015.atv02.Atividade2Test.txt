@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: br.com.dextra.estagio2015.atv02.Atividade2Test
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 teste1(br.com.dextra.estagio2015.atv02.Atividade2Test)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at br.com.dextra.estagio2015.atv02.Pai.<init>(Pai.java:8)

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
 <testsuite failures="0" time="0.002" errors="2" skipped="0" tests="2" name="br.com.dextra.estagio2015.atv04.Atividade4Test">
+=======
+<testsuite tests="1" failures="0" name="br.com.dextra.estagio2015.atv04.Atividade4Test" time="0.001" errors="1" skipped="0">
+>>>>>>> 383f4c26927976de4a75668d36f16198c04f37d6
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64"/>
@@ -14,8 +18,13 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<<<<<<< HEAD
     <property name="user.dir" value="/home/vinicius.moreti/projetos/desafio_buzz_woody/atividades"/>
     <property name="java.runtime.version" value="1.7.0_72-b14"/>
+=======
+    <property name="user.dir" value="/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades"/>
+    <property name="java.runtime.version" value="1.8.0_20-b26"/>
+>>>>>>> 383f4c26927976de4a75668d36f16198c04f37d6
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
@@ -59,10 +68,24 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
+<<<<<<< HEAD
   <testcase time="0.001" classname="br.com.dextra.estagio2015.atv04.Atividade4Test" name="testAdicionaContaParaCliente">
     <error message="Could not initialize class br.com.dextra.estagio2015.comum.JPAUtils" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class br.com.dextra.estagio2015.comum.JPAUtils
 	at br.com.dextra.estagio2015.atv04.Atividade4Test.criaClienteTeste(Atividade4Test.java:46)
 	at br.com.dextra.estagio2015.atv04.Atividade4Test.testAdicionaContaParaCliente(Atividade4Test.java:25)
+=======
+  <testcase classname="br.com.dextra.estagio2015.atv04.Atividade4Test" name="br.com.dextra.estagio2015.atv04.Atividade4Test" time="0.001">
+    <error message="config" type="javax.naming.NameAlreadyBoundException">javax.naming.NameAlreadyBoundException: config
+	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:57)
+	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:80)
+	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:80)
+	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:80)
+	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:84)
+	at javax.naming.InitialContext.bind(InitialContext.java:425)
+	at br.com.dextra.estagio2015.comum.JPA_DB_Utils.bindContext(JPA_DB_Utils.java:34)
+	at br.com.dextra.estagio2015.comum.JPA_DB_Utils.start(JPA_DB_Utils.java:26)
+	at br.com.dextra.estagio2015.atv04.Atividade4Test.setUp(Atividade4Test.java:20)
+>>>>>>> 383f4c26927976de4a75668d36f16198c04f37d6
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
