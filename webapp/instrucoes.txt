@@ -1,0 +1,7 @@
+Para começar o aplicativo, após um mvn clean install, executar o comando mvn tomee:run
+Esse comando irá subir a aplicação em http://localhost:8080/
+
+Existe um bug no aplicativo, aparece uma tela em branca para o usuário quando ele acessa o endereço http://localhost:8080/
+O que está acontecendo? Porquê? Descreva os passos que você fez para chegar na solução e o que está errado.
+
+Após corrigido o bug o sistema irá pedir uma senha, o usuário esqueceu seu login e senha e pediu para que você mude para algo mais simples. Descreva como funciona o sistema de autenticação do aplicativo e os passos que você fez para completar a tarefa.

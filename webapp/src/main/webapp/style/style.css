@@ -1,0 +1,37 @@
+h1 {
+	color: darkblue;
+	margin: 0px;
+}
+
+.gray {
+	margin: 0px;
+	color: gray;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.grid td,.grid th {
+	text-shadow: 0 1px 0 #fff;
+	padding: 8px 10px 6px;
+	background-color: #fff;
+	vertical-align: middle;
+	border: 1px solid #d1d1d1;
+	font-size: 12px;
+	color: #444;
+}
+
+.grid>thead>tr>th {
+	background-color: #e7eff4;
+	color: #324d5d;
+	border: 1px solid #b9ccd7;
+	cursor: default;
+	border: 1px solid #b9ccd7;
+	cursor: default;
+}
+
+.hidden{
+	display:none
+}

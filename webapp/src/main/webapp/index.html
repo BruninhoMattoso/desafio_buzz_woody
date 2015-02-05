@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bem vindo</title>
+  <link rel="stylesheet" href="style/style.css">
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/lib/handlebars-v1.3.0.js"></script>
+  <script src="js/chave-valor.js"></script>
+</head>
+
+<body>
+  <div id="main-chave-valor"></div>
+  <script id="index-template" type="text/x-handlebars-template">
+    <h1>Olá, {{nome}}.</h1>
+    <p class="gray">Bem vindo, entre com valores e os visualize abaixo.</p>
+    <br><br>
+    <input type="text" id="chave" placeholder="chave">
+    <input type="text" id="valor" placeholder="valor">
+    <input type="button" id="submeter" value="submeter">
+    <div id="tabela-valores"></div>
+  </script>
+  <script>Dextra.ChaveValor.init();</script>
+</body>
+</html>
