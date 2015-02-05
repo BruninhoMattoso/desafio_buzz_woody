@@ -18,6 +18,9 @@ import java.util.Scanner;
  */
 public class BlackJack {
 
+	public static int JOGADOR = 0;
+	public static int COMPUTADOR = 1;
+	
 	private Baralho baralho;
 	private Jogador jogador, computador;
 	private int vez;// 0 = jogador, 1 = computador, 2 = fim
@@ -32,8 +35,8 @@ public class BlackJack {
 		vez = 0;
 	}
 
-	public void pegaCarta() {
-		switch (vez) {
+	public void pegaCarta(int quem) {
+		switch (quem) {
 		case 0: {
 			jogador.pegarCarta(baralho.getCarta());
 			if (jogador.perdeu())
@@ -51,14 +54,6 @@ public class BlackJack {
 
 	public int getVez() {
 		return vez;
-	}
-
-	public boolean vezJogador() {
-		return vez == 0;
-	}
-
-	public boolean vezComputador() {
-		return vez == 1;
 	}
 
 	public boolean fimJogo() {
@@ -83,25 +78,42 @@ public class BlackJack {
 	public void passaVez() {
 		vez++;
 	}
+	
+	public int pontuacao(int qual){
+		if(qual == 0)
+			return this.jogador.getPontos();
+		return this.computador.getPontos();
+	}
+	
+	public String getInfo(){
+		String result ="Cartas:";
+		for(Carta c : jogador.getMao())
+			result += c.getValor()+",";
+		result += "\nPontuacao do jogador: " + jogador.getPontos();
+		result += "\nPontuacao do computador: " + computador.getPontos();
+		return result;
+	}
 
 	public static void main(String[] args) {
 
 		BlackJack jogo = new BlackJack();
 
-		while (jogo.vezJogador()) {
+		while (jogo.getVez()==BlackJack.JOGADOR) {
 			System.out.println("Pega carta (c) ou para (p) ?");
 			Scanner entrada = new Scanner(System.in);
 			String comando = entrada.nextLine();
 			if (comando.equals("c")) {
-				jogo.pegaCarta();
+				jogo.pegaCarta(BlackJack.JOGADOR);
+				System.out.println(jogo.getInfo());
 			}
 			if (comando.equals("p")) {
 				jogo.passaVez();
 			}
 		}
 		while (!jogo.fimJogo()) {
-			jogo.pegaCarta();
+			jogo.pegaCarta(BlackJack.COMPUTADOR);
 		}
+		System.out.println(jogo.getInfo());
 		System.out.println(jogo.resultado());
 	}
 	/*
