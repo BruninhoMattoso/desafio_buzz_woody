@@ -10,11 +10,15 @@ import javax.persistence.Id;
 public class Conta {
 
 	@Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
 	@Column
 	private Double saldo;
+	
+	@SuppressWarnings("unused")
+	private Conta() {
+	}
 	
 	public Conta(double saldo) {
 		this.saldo = saldo;
@@ -22,6 +26,18 @@ public class Conta {
 
 	public Double getSaldo() {
 		return this.saldo;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public void setSaldo(Double saldo) {
+		this.saldo = saldo;
 	}
 
 }

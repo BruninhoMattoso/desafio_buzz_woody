@@ -34,7 +34,9 @@ public class Atividade6Test {
 	}
 	
 	private Banco criaBanco(String nome) {
-		return (Banco) JPAUtils.merge(new Banco(nome));
+		Banco b = new Banco(nome);
+		JPAUtils.insert(b);
+		return b; 
 	}
 
 }

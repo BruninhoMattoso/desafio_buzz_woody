@@ -61,7 +61,7 @@
   </properties>
   <testcase classname="br.com.dextra.estagio2015.atv06.Atividade6Test" name="testIdBanco" time="0.001">
     <error message="Could not initialize class br.com.dextra.estagio2015.comum.JPAUtils" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class br.com.dextra.estagio2015.comum.JPAUtils
-	at br.com.dextra.estagio2015.atv06.Atividade6Test.criaBanco(Atividade6Test.java:37)
+	at br.com.dextra.estagio2015.atv06.Atividade6Test.criaBanco(Atividade6Test.java:38)
 	at br.com.dextra.estagio2015.atv06.Atividade6Test.testIdBanco(Atividade6Test.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

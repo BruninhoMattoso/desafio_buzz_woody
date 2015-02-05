@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: br.com.dextra.estagio2015.atv06.Atividade6Test
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.063 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.033 sec <<< FAILURE!
 testIdBanco(br.com.dextra.estagio2015.atv06.Atividade6Test)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: Could not initialize class br.com.dextra.estagio2015.comum.JPAUtils
-	at br.com.dextra.estagio2015.atv06.Atividade6Test.criaBanco(Atividade6Test.java:37)
+	at br.com.dextra.estagio2015.atv06.Atividade6Test.criaBanco(Atividade6Test.java:38)
 	at br.com.dextra.estagio2015.atv06.Atividade6Test.testIdBanco(Atividade6Test.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

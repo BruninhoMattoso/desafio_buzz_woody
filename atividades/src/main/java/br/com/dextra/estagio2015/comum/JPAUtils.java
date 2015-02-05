@@ -21,4 +21,11 @@ public class JPAUtils {
 		return obj;
 	}
 
+	public static void insert(Object obj){
+		EntityManager em = JPAUtils.getEM();
+		em.getTransaction().begin();
+		em.persist(obj);
+		em.getTransaction().commit();
+		em.close();		
+	}
 }
