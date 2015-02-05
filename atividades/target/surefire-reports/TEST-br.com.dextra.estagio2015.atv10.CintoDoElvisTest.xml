@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="br.com.dextra.estagio2015.atv10.CintoDoElvisTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="br.com.dextra.estagio2015.atv10.CintoDoElvisTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/opt/java-stuff/jdk1.8.0_20/jre/lib/amd64"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/laura.boscolo/Downloads/desafio/atividades"/>
+    <property name="user.dir" value="/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades"/>
     <property name="java.runtime.version" value="1.8.0_20-b26"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/opt/java-stuff/jdk1.8.0_20/jre/lib/endorsed"/>
@@ -59,7 +59,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="br.com.dextra.estagio2015.atv10.CintoDoElvisTest" name="qualOTamanhoDoCintoDoElvisHoje" time="0.001">
+  <testcase classname="br.com.dextra.estagio2015.atv10.CintoDoElvisTest" name="qualOTamanhoDoCintoDoElvisHoje" time="0">
     <failure message="expected:&lt;85&gt; but was:&lt;-1930&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;85&gt; but was:&lt;-1930&gt;
 	at org.junit.Assert.fail(Assert.java:91)
 	at org.junit.Assert.failNotEquals(Assert.java:645)

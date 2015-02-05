@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/laura.boscolo/Downloads/desafio/atividades"/>
+    <property name="user.dir" value="/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades"/>
     <property name="java.runtime.version" value="1.8.0_20-b26"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/opt/java-stuff/jdk1.8.0_20/jre/lib/endorsed"/>
@@ -62,7 +62,7 @@
   <testcase classname="br.com.dextra.estagio2015.atv02.Atividade2Test" name="teste1" time="0">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at br.com.dextra.estagio2015.atv02.Pai.&lt;init&gt;(Pai.java:8)
-	at br.com.dextra.estagio2015.atv02.Filho.&lt;init&gt;(Filho.java:4)
+	at br.com.dextra.estagio2015.atv02.Filho.&lt;init&gt;(Filho.java:6)
 	at br.com.dextra.estagio2015.atv02.Atividade2Test.teste1(Atividade2Test.java:13)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

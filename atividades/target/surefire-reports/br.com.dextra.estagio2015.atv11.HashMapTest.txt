@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: br.com.dextra.estagio2015.atv11.HashMapTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 testMap(br.com.dextra.estagio2015.atv11.HashMapTest)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: 
 	at org.junit.Assert.fail(Assert.java:91)
