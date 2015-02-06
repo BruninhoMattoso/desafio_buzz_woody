@@ -4,7 +4,7 @@ import br.com.dextra.estagio2015.comum.JPAUtils;
 
 public class VendaService {
 
-	void inserirVenda(Venda venda) {
+	public void inserirVenda(Venda venda) {
 		try {
 			JPAUtils.insert(venda);
 		} catch (Exception e) {
