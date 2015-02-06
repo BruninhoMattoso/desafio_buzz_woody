@@ -1,8 +1,8 @@
 package br.com.dextra.estagio2015.atv04;
 
-import java.util.List;
+import static org.junit.Assert.*;
 
-import javax.persistence.EntityManager;
+import java.util.List;
 
 import junit.framework.Assert;
 
@@ -24,49 +24,37 @@ public class Atividade4Test {
 
 	@Test
 	public void testAdicionaContaParaCliente() {
-		/*Cliente cliente = criaClienteTeste();
-		Conta conta = new Conta(1000);
+		Cliente cliente = criaClienteTeste();
+		Conta conta = criaContaTeste(1000);
+		Conta conta2 = criaContaTeste(4000);
+
+		cliente = CaixaEletronico.adicionaContaParaCliente(cliente, conta);
+		cliente = CaixaEletronico.adicionaContaParaCliente(cliente, conta2);
 		
-		CaixaEletronico.adicionaContaParaCliente(cliente, conta);
-		
-		EntityManager em = JPAUtils.getEM();
-		Cliente clienteTeste = em.find(Cliente.class, cliente.getId());
-		
-		Assert.assertEquals(1, clienteTeste.getContas().size());*/
+		assertEquals(2,cliente.getContas().size());
+		//FIXME esse teste nao testa nada
+		//FIXED ?
 	}
 
 	@Test 
 	public void testListaContasDeCliente() {
 		Cliente cliente = criaClienteTeste();
+		Conta conta = criaContaTeste(1000);
+		Conta conta2 = criaContaTeste(2000);
 		
-		Conta conta = new Conta(1000);
-		//Conta conta2 = new Conta(2500);
-		
-		CaixaEletronico.adicionaContaParaCliente(cliente, conta);
-		//CaixaEletronico.adicionaContaParaCliente(cliente, conta2);
+		cliente = CaixaEletronico.adicionaContaParaCliente(cliente, conta);
+		cliente = CaixaEletronico.adicionaContaParaCliente(cliente, conta2);
 
-		List<Conta> contasDeCliente = CaixaEletronico.listaContasDeCliente(cliente.getId());
-		
-		System.out.println("Contas");
-		for (Conta c : contasDeCliente){
-			System.out.println("Conta"+c.getId()+": "+c.getSaldo());
-		}
-		
+		List<Conta> contasDeCliente = CaixaEletronico.listaContasDeCliente(1L);
 		Assert.assertEquals(2, contasDeCliente.size());
 	}
 	
-	@Test
-	public void testCriarCliente(){
-		Cliente c = new Cliente("Lura");
-		JPAUtils.insert(c);
-		
-	}
-	
 	private Cliente criaClienteTeste() {
-		Cliente c = new Cliente("Jeffinho PehFofo");
-		JPAUtils.insert(c);
-		return c;
+		return (Cliente) JPAUtils.merge(new Cliente("Jeffinho PehFofo"));
 	}
 	
+	private Conta criaContaTeste(double valor) {
+		 return (Conta) JPAUtils.merge(new Conta(valor));
+	}
 	
 }

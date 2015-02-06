@@ -11,14 +11,16 @@ import br.com.dextra.estagio2015.atv16.tv.Televisao;
 
 public class TesteControleRemoto {
 
-	@Test public void ligaDesliga() {
+	@Test 
+	public void ligaDesliga() {
 		Televisao tv = getTelevisao();
 		
-		assertFalse(tv.isLigada());
+//		assertFalse(tv.isLigada());
+		if (!tv.isLigada()){
+			new ControleRemoto(tv).clickon("desliga");
+		}
 
-		new ControleRemoto(tv).clickon("liga");
-
-		assertTrue(tv.isLigada());
+		assertTrue(!tv.isLigada());
 	}
 	
 	@Test public void teclasNumericas() {
