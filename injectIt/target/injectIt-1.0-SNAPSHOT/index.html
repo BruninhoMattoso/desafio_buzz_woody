@@ -23,7 +23,7 @@
     $("#pesquisar").click(function() {
         $.ajax({
             url : 'api/usuarios',
-            type : "GET",
+            type : "POST",
             data : {
                 name : $("#search").val()
             }
