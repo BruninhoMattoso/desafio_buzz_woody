@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
 <testsuite tests="1" failures="0" name="br.com.dextra.estagio2015.atv13.Atividade13Test" time="0.005" errors="1" skipped="0">
+=======
+<testsuite failures="0" time="0" errors="1" skipped="0" tests="1" name="br.com.dextra.estagio2015.atv13.Atividade13Test">
+>>>>>>> 39b5a2832805d4d6e90834fdc73afdb38bb81bf2
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/opt/java-stuff/jdk1.8.0_20/jre/lib/amd64"/>
@@ -59,7 +63,11 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
+<<<<<<< HEAD
   <testcase classname="br.com.dextra.estagio2015.atv13.Atividade13Test" name="br.com.dextra.estagio2015.atv13.Atividade13Test" time="0.005">
+=======
+  <testcase time="0" classname="br.com.dextra.estagio2015.atv13.Atividade13Test" name="br.com.dextra.estagio2015.atv13.Atividade13Test">
+>>>>>>> 39b5a2832805d4d6e90834fdc73afdb38bb81bf2
     <error message="config" type="javax.naming.NameAlreadyBoundException">javax.naming.NameAlreadyBoundException: config
 	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:57)
 	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:80)

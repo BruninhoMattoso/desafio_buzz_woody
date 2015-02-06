@@ -62,8 +62,8 @@ public class Atividade13Test {
 		EntityManager em = JPAUtils.getEM();
 
 		ArrayList<Venda> vendas = (ArrayList<Venda>) em.createQuery("FROM Venda").getResultList();
-		for (Venda v : vendas){
-			System.out.println("ID " + v.getId());
+		for(int i = 0; i < 3; i++){
+			assertEquals(new Long(i),vendas.get(i).getId());
 		}
 		assertEquals(3, vendas.size());
 	

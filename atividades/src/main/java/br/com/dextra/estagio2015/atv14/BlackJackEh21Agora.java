@@ -1,5 +1,8 @@
 package br.com.dextra.estagio2015.atv14;
 
+import br.com.dextra.estagio2015.atv03.BlackJack;
+
+
 
 /**
  * @author jefferson.venancio
@@ -19,5 +22,21 @@ package br.com.dextra.estagio2015.atv14;
  *         Qualquer coisa me chama no talk, jefferson.venancio
  * 
  */
-public class BlackJackEh21Agora {
+public class BlackJackEh21Agora extends BlackJack{
+	
+	public BlackJackEh21Agora(){
+		super();
+		SpecialStream saida = new SpecialStream(System.out);
+		saida.addReplaceIgnoreCase("BlackJack", "21");
+		saida.addReplaceIgnoreCase("Black Jack", "21");
+		System.setOut(saida);
+	}
+	
+	public static void main(String[] args) {
+		SpecialStream saida = new SpecialStream(System.out);
+		saida.addReplaceIgnoreCase("cArA", "VEI");
+		System.setOut(saida);
+		System.out.println("EI CARA");
+		
+	}
 }
