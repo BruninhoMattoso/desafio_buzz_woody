@@ -7,6 +7,13 @@ import java.util.Map;
 
 import org.junit.Test;
 
+/**
+ * Fizemos todas as alterações na variavel "pessoa" antes de colocar no mapa.
+ * Também deletamos o método process, porque todas as informações  foram adicionadas no construtor.
+ * @author laura.boscolo
+ *
+ */
+
 public class HashMapTest {
 
 	public static class Person {
@@ -76,18 +83,14 @@ public class HashMapTest {
 
 	}
 
-	private void process(Person pessoa) {
-		pessoa.setName("name");
-	}
-
 	@Test
 	public void testMap() {
 		Map<Person, String> map = new HashMap<Person, String>();
-		Person pessoa = new Person();
-		pessoa.setId(3l);
-		map.put(pessoa, "comment1");
-		process(pessoa);
+		
+		Person pessoa = new Person(1l, "PessoaTeste1");
 
+		map.put(pessoa, "A primeira pessoa do teste");
+		
 		assertTrue(map.containsKey(pessoa));
 		Person key = map.keySet().iterator().next();
 		assertTrue(map.containsKey(key));

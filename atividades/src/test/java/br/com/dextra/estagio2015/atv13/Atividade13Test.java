@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import br.com.dextra.estagio2015.comum.JPAUtils;
 
-public class Atividade13 {
+public class Atividade13Test {
 
 	/**
 	 * O cliente (andrei@dextra-sw.com) mandou o seguinte email (aqui sem acentos porque eh codigo Java!):
@@ -30,21 +30,23 @@ public class Atividade13 {
 	 */
 	@Test
 	public void testInserirVenda() {
+		VendaService service = new VendaService();
+		
 		Venda venda = new Venda();
 		venda.add(new ItemVenda(10.0));
 		venda.add(new ItemVenda(20.0));
 		venda.add(new ItemVenda(30.0));
-		new VendaService().inserirVenda(venda);
+		service.inserirVenda(venda);
 		
 		venda = new Venda();
 		venda.add(new ItemVenda(100.0));
 		venda.add(new ItemVenda(200.0));
-		new VendaService().inserirVenda(venda);
+		service.inserirVenda(venda);
 		
 		venda = new Venda();
 		venda.add(new ItemVenda(100.0));
 		venda.add(new ItemVenda(200.0));
-		new VendaService().inserirVenda(venda);
+		service.inserirVenda(venda);
 		
 		EntityManager em = JPAUtils.getEM();
 		assertEquals(3, em.createQuery("FROM Venda").getResultList().size());

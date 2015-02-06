@@ -14,15 +14,18 @@ public class JPAUtils {
 
 	public static Object merge(Object obj) {
 		EntityManager em = JPAUtils.getEM();
+		
 		em.getTransaction().begin();
 		obj = em.merge(obj);
 		em.getTransaction().commit();
-		em.close();		
+		em.close();
+		
 		return obj;
 	}
 
 	public static void insert(Object obj){
 		EntityManager em = JPAUtils.getEM();
+		
 		em.getTransaction().begin();
 		em.persist(obj);
 		em.getTransaction().commit();

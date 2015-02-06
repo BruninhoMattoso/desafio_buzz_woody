@@ -11,9 +11,8 @@ public class KombiTest {
 
 	@Test
 	public void colocarSograNaKombi() {
-
-		for (int i = 0; i < 20; i++) {
-			kombi.add(new Sogra());
+		for (int i = 0; i < kombi.CAPACIDADE; i++) {
+			kombi.add(new Sogra("Sogra"+i));
 		}
 		kombi.viaja();
 	}
