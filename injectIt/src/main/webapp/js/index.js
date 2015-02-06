@@ -1,18 +1,11 @@
-    $.ajax({
+$(document).ready(function(){
+	$.ajax({
+		type : 'GET',
         url : 'api/usuarios',
-        type : "GET",
-    }).done(function(resp) {
-        $("#usuarios").html(resp);
-    });
-
-    $("#pesquisar").click(function() {
-        $.ajax({
-            url : 'api/usuarios',
-            type : "GET",
-            data : {
-                name : $("#search").val()
-            }
-        }).done(function(resp) {
-            $("#usuarios").html(resp);
-        });
-    });
+        dataType : 'json'
+    }).success(function(strJson) {
+    	$.get('templates/template.html').done(function(template) {
+    		$('#usuarios').html(doT.template(template)(strJson));
+    	});
+    })
+});

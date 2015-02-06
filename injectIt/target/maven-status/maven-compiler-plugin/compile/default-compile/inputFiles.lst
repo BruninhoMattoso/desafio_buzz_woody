@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 /home/vinicius.moreti/projetos/desafio_buzz_woody/injectIt/src/main/java/com/dextra/injectit/database/MockDatabase.java
 /home/vinicius.moreti/projetos/desafio_buzz_woody/injectIt/src/main/java/com/dextra/injectit/database/Database.java
 /home/vinicius.moreti/projetos/desafio_buzz_woody/injectIt/src/main/java/com/dextra/injectit/database/User.java
 /home/vinicius.moreti/projetos/desafio_buzz_woody/injectIt/src/main/java/com/dextra/injectit/booter/ContextListener.java
 /home/vinicius.moreti/projetos/desafio_buzz_woody/injectIt/src/main/java/com/dextra/injectit/servlets/InjectServlet.java
-=======
-/home/bruno.goncalves/Documentos/desafio_buzz_woody/injectIt/src/main/java/com/dextra/injectit/database/Database.java
-/home/bruno.goncalves/Documentos/desafio_buzz_woody/injectIt/src/main/java/com/dextra/injectit/booter/ContextListener.java
-/home/bruno.goncalves/Documentos/desafio_buzz_woody/injectIt/src/main/java/com/dextra/injectit/database/MockDatabase.java
-/home/bruno.goncalves/Documentos/desafio_buzz_woody/injectIt/src/main/java/com/dextra/injectit/servlets/InjectServlet.java
->>>>>>> cb20de1e5e2acdfdb69f6b09fe44356d7f6bc75b

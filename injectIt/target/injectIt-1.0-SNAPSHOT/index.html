@@ -9,27 +9,7 @@
 	<label for="search">Nome:</label>
 	<input type="text" id="search" name="search" />
 	<input type="button" value="Pesquisar" id="pesquisar" />
-	<div id="usuarios"></div>
+	<div id="usuarios">
+	</div>
 </body>
-
-<script type="text/javascript">
-    $.ajax({
-        url : 'api/usuarios',
-        type : "GET",
-    }).done(function(resp) {
-        $("#usuarios").html(resp);
-    });
-
-    $("#pesquisar").click(function() {
-        $.ajax({
-            url : 'api/usuarios',
-            type : "POST",
-            data : {
-                name : $("#search").val()
-            }
-        }).done(function(resp) {
-            $("#usuarios").html(resp);
-        });
-    });
-</script>
 </html>

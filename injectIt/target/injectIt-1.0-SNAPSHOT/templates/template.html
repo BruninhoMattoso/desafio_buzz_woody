@@ -1,0 +1,18 @@
+<table>
+<thead>
+	<tr>
+		<th>Nome: </th>
+		<th>Senha: </th>
+		<th>Numero do cartao: </th>
+	</tr>
+</thead>
+<tbody>
+{{~it : client}}
+<tr>
+	<td>{{=client.name}}</td>
+	<td>{{=client.password}}</td>
+	<td>{{=client.creditCardNumber}}</td>
+</tr>
+{{~}}
+</tbody>
+</table>
