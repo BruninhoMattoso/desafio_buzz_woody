@@ -23,7 +23,7 @@ public class InjectServlet extends HttpServlet {
 		try {
 
 			String q = req.getParameter("name");
-
+			
 			String query = "SELECT * FROM USER";
 			if (q != null) {
 			}

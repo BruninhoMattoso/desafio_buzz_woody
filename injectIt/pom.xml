@@ -21,12 +21,20 @@
     <version>3.0.1</version>
     <scope>provided</scope>
    </dependency>
+   
    <dependency>
 	<groupId>org.hsqldb</groupId>
 	<artifactId>hsqldb</artifactId>
 	<version>2.3.2</version>
 <!--        <scope>provided</scope> -->
    </dependency>
+   
+   <dependency>
+	<groupId>org.json</groupId>
+	<artifactId>json</artifactId>
+	<version>20090211</version>
+   </dependency>
+   
   </dependencies>
 
   <build>
@@ -45,15 +53,6 @@
      <groupId>org.apache.tomcat.maven</groupId>
      <artifactId>tomcat7-maven-plugin</artifactId>
      <version>2.2</version>
-<!--
-        <dependencies>
-          <dependency>
-            <groupId>org.hsqldb</groupId>
-            <artifactId>hsqldb</artifactId>
-            <version>2.3.2</version>
-          </dependency>
- 	</dependencies>
--->
     </plugin>
    </plugins>
   </build>
