@@ -19,9 +19,10 @@ public class Database {
 		}
 	}
 
-	public static ResultSet execute(String sql) {
+	public static ResultSet execute(String sql, Object... objects) {
 		Connection conn = getConnection();
 		Statement s = null;
+		
 		try {
 			s = conn.createStatement();
 			if (s.execute(sql)) {

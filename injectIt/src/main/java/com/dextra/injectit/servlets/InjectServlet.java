@@ -61,18 +61,12 @@ public class InjectServlet extends HttpServlet {
 		
 		String query = "SELECT * FROM USER WHERE NAME = '" + name + "'";
 		ResultSet users = Database.execute(query);
-		System.out.println("Query: " + query);
 		
 		ArrayList<User> searchedUsers = new ArrayList<User>();
 		try {
 			
 			while (users.next()){
-				String userName = users.getString(1);
-				String userPassword = users.getString(2);
-				String userCard = users.getString(3);
-				User user = new User(userName,userPassword,userCard);
-				searchedUsers.add(user);
-				System.out.println("USUARIO " + user.getName());
+				searchedUsers.add(new User(users.getString(1),users.getString(2),users.getString(3)));
 			}
 			
 			Gson gson = new Gson();
@@ -86,5 +80,24 @@ public class InjectServlet extends HttpServlet {
 			e.printStackTrace();
 		}	
 		
+	}
+	
+	public static void main(String[] args) {
+		String query = "SELECT * FROM USER WHERE NAME = ?";
+		ResultSet users = Database.execute(query);
+		
+		ArrayList<User> searchedUsers = new ArrayList<User>();
+		try {
+			
+			while (users.next()){
+				searchedUsers.add(new User(users.getString(1),users.getString(2),users.getString(3)));
+			}
+			
+			Gson gson = new Gson();
+			System.out.println(gson.toJson(searchedUsers));
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}	
 	}
 }
