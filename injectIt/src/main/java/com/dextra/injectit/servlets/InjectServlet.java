@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.xml.ws.Response;
 
 import com.dextra.injectit.database.Database;
+import com.dextra.injectit.database.MockDatabase;
 import com.dextra.injectit.database.User;
 import com.google.gson.Gson;
 
@@ -20,8 +21,8 @@ public class InjectServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1267446324696819053L;
 
-	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+	//@Override
+	protected void doGet2(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		
 		try {
@@ -58,17 +59,20 @@ public class InjectServlet extends HttpServlet {
 		// Nome dos usuario pesquisado
 		String name = req.getParameter("name");
 		
-		ResultSet users = Database.execute("SELECT * FROM USER WHERE NAME = '" + name + "'");
+		String query = "SELECT * FROM USER WHERE NAME = '" + name + "'";
+		ResultSet users = Database.execute(query);
+		System.out.println("Query: " + query);
+		
 		ArrayList<User> searchedUsers = new ArrayList<User>();
 		try {
 			
-			users.first();
 			while (users.next()){
 				String userName = users.getString(1);
 				String userPassword = users.getString(2);
 				String userCard = users.getString(3);
 				User user = new User(userName,userPassword,userCard);
 				searchedUsers.add(user);
+				System.out.println("USUARIO " + user.getName());
 			}
 			
 			Gson gson = new Gson();

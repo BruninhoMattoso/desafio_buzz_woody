@@ -5,14 +5,20 @@
         $("#usuarios").html(resp);
     });
 
-    $("#pesquisar").click(function() {
+    $('#pesquisar').click(function() {
+    	
         $.ajax({
             url : 'api/usuarios',
-            type : "GET",
+            type : 'POST',
             data : {
-                name : $("#search").val()
-            }
+                name : $('#search').val()
+            },
+            dataType : 'json'
         }).done(function(resp) {
-            $("#usuarios").html(resp);
+        	console.info(resp);
+        	$.get('templates/template.html',function (template){
+        		$("#usuarios").html(doT.template(template)(resp));
+        	}, "html");
+            
         });
     });
