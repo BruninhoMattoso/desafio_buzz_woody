@@ -34,12 +34,4 @@ public class User {
 	public void setCreditCardNumber(String creditCardNumber) {
 		this.creditCardNumber = creditCardNumber;
 	}
-	
-	public String toJSON(){
-		return "{'name':'"+getName()+"', 'password':'"+getPassword()+"', 'creditCardNumber':'"+getCreditCardNumber()+"'}";
-	}
-	
-//	public static User getFromJSON(String str){
-//		JSONObject json = new JSONObject(str);
-//	}
 }

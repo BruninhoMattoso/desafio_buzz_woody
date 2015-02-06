@@ -6,12 +6,14 @@
 		<th>Numero do cartao: </th>
 	</tr>
 </thead>
-<tbody>
-{{~it : client}}
+<tbody> 
+{{console.info(it);}}
+{{~it :user}}
 <tr>
-	<td>{{=client.name}}</td>
-	<td>{{=client.password}}</td>
-	<td>{{=client.creditCardNumber}}</td>
+	{{console.info();}}
+	<td>{{=user.name}}</td>
+	<td>{{=user.password}}</td>
+	<td>{{=user.creditCardNumber}}</td>
 </tr>
 {{~}}
 </tbody>
