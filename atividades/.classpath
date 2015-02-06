@@ -10,11 +10,7 @@
   <classpathentry kind="var" path="M2_REPO/javax/transaction/jta/1.1/jta-1.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/el/el-api/2.2/el-api-2.2.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/xml/jaxrpc-api/1.1/jaxrpc-api-1.1.jar"/>
-  <classpathentry kind="var" path="M2_REPO/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar" sourcepath="M2_REPO/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar">
-    <attributes>
-      <attribute value="jar:file:/home/vinicius.moreti/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-javadoc.jar!/" name="javadoc_location"/>
-    </attributes>
-  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="var" path="M2_REPO/com/googlecode/mycontainer/mycontainer-commons/1.4.4/mycontainer-commons-1.4.4.jar"/>
   <classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/1.7.1/gson-1.7.1.jar"/>

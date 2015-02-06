@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
+<testsuite tests="1" failures="0" name="br.com.dextra.estagio2015.atv13.Atividade13Test" time="0.005" errors="1" skipped="0">
+=======
 <testsuite failures="0" time="0" errors="1" skipped="0" tests="1" name="br.com.dextra.estagio2015.atv13.Atividade13Test">
+>>>>>>> 39b5a2832805d4d6e90834fdc73afdb38bb81bf2
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64"/>
-    <property name="java.vm.version" value="24.72-b04"/>
+    <property name="sun.boot.library.path" value="/opt/java-stuff/jdk1.8.0_20/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.20-b23"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
@@ -14,10 +18,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/vinicius.moreti/projetos/desafio_buzz_woody/atividades"/>
-    <property name="java.runtime.version" value="1.7.0_72-b14"/>
+    <property name="user.dir" value="/home/laura.boscolo/Downloads/desafio/desafio_buzz_woody/atividades"/>
+    <property name="java.runtime.version" value="1.8.0_20-b26"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/endorsed"/>
+    <property name="java.endorsed.dirs" value="/opt/java-stuff/jdk1.8.0_20/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
@@ -28,28 +32,28 @@
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="51.0"/>
+    <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="3.13.0-32-generic"/>
-    <property name="user.home" value="/home/vinicius.moreti"/>
+    <property name="user.home" value="/home/laura.boscolo"/>
     <property name="user.timezone" value="America/Sao_Paulo"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="1.7"/>
-    <property name="user.name" value="vinicius.moreti"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="laura.boscolo"/>
     <property name="java.class.path" value="/opt/maven/boot/plexus-classworlds-2.5.1.jar"/>
-    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/usr/lib/jvm/java-7-oracle/jre"/>
+    <property name="java.home" value="/opt/java-stuff/jdk1.8.0_20/jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="pt"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.7.0_72"/>
-    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="java.version" value="1.8.0_20"/>
+    <property name="java.ext.dirs" value="/opt/java-stuff/jdk1.8.0_20/jre/lib/ext:/usr/java/packages/lib/ext"/>
     <property name="securerandom.source" value="file:/dev/./urandom"/>
-    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes"/>
+    <property name="sun.boot.class.path" value="/opt/java-stuff/jdk1.8.0_20/jre/lib/resources.jar:/opt/java-stuff/jdk1.8.0_20/jre/lib/rt.jar:/opt/java-stuff/jdk1.8.0_20/jre/lib/sunrsasign.jar:/opt/java-stuff/jdk1.8.0_20/jre/lib/jsse.jar:/opt/java-stuff/jdk1.8.0_20/jre/lib/jce.jar:/opt/java-stuff/jdk1.8.0_20/jre/lib/charsets.jar:/opt/java-stuff/jdk1.8.0_20/jre/lib/jfr.jar:/opt/java-stuff/jdk1.8.0_20/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="/opt/maven"/>
     <property name="file.separator" value="/"/>
@@ -59,21 +63,25 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
+<<<<<<< HEAD
+  <testcase classname="br.com.dextra.estagio2015.atv13.Atividade13Test" name="br.com.dextra.estagio2015.atv13.Atividade13Test" time="0.005">
+=======
   <testcase time="0" classname="br.com.dextra.estagio2015.atv13.Atividade13Test" name="br.com.dextra.estagio2015.atv13.Atividade13Test">
+>>>>>>> 39b5a2832805d4d6e90834fdc73afdb38bb81bf2
     <error message="config" type="javax.naming.NameAlreadyBoundException">javax.naming.NameAlreadyBoundException: config
 	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:57)
 	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:80)
 	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:80)
 	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:80)
 	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:84)
-	at javax.naming.InitialContext.bind(InitialContext.java:419)
+	at javax.naming.InitialContext.bind(InitialContext.java:425)
 	at br.com.dextra.estagio2015.comum.JPA_DB_Utils.bindContext(JPA_DB_Utils.java:34)
 	at br.com.dextra.estagio2015.comum.JPA_DB_Utils.start(JPA_DB_Utils.java:26)
 	at br.com.dextra.estagio2015.atv13.Atividade13Test.setUp(Atividade13Test.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
+	at java.lang.reflect.Method.invoke(Method.java:483)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
@@ -83,9 +91,9 @@
 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
+	at java.lang.reflect.Method.invoke(Method.java:483)
 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
