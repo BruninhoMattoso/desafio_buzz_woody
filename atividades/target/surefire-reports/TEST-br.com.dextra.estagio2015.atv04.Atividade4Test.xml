@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.005" errors="2" skipped="0" tests="2" name="br.com.dextra.estagio2015.atv04.Atividade4Test">
+<testsuite failures="0" time="0.006" errors="1" skipped="0" tests="1" name="br.com.dextra.estagio2015.atv04.Atividade4Test">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64"/>
@@ -59,10 +59,17 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.004" classname="br.com.dextra.estagio2015.atv04.Atividade4Test" name="testListaContasDeCliente">
-    <error message="Could not initialize class br.com.dextra.estagio2015.comum.JPAUtils" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class br.com.dextra.estagio2015.comum.JPAUtils
-	at br.com.dextra.estagio2015.atv04.Atividade4Test.criaClienteTeste(Atividade4Test.java:46)
-	at br.com.dextra.estagio2015.atv04.Atividade4Test.testListaContasDeCliente(Atividade4Test.java:34)
+  <testcase time="0.006" classname="br.com.dextra.estagio2015.atv04.Atividade4Test" name="br.com.dextra.estagio2015.atv04.Atividade4Test">
+    <error message="config" type="javax.naming.NameAlreadyBoundException">javax.naming.NameAlreadyBoundException: config
+	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:57)
+	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:80)
+	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:80)
+	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:80)
+	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:84)
+	at javax.naming.InitialContext.bind(InitialContext.java:419)
+	at br.com.dextra.estagio2015.comum.JPA_DB_Utils.bindContext(JPA_DB_Utils.java:34)
+	at br.com.dextra.estagio2015.comum.JPA_DB_Utils.start(JPA_DB_Utils.java:26)
+	at br.com.dextra.estagio2015.atv04.Atividade4Test.setUp(Atividade4Test.java:22)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -70,56 +77,7 @@
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
-	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</error>
-    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-</system-err>
-  </testcase>
-  <testcase time="0.001" classname="br.com.dextra.estagio2015.atv04.Atividade4Test" name="testAdicionaContaParaCliente">
-    <error message="Could not initialize class br.com.dextra.estagio2015.comum.JPAUtils" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class br.com.dextra.estagio2015.comum.JPAUtils
-	at br.com.dextra.estagio2015.atv04.Atividade4Test.criaClienteTeste(Atividade4Test.java:46)
-	at br.com.dextra.estagio2015.atv04.Atividade4Test.testAdicionaContaParaCliente(Atividade4Test.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
-	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:27)
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)

@@ -17,5 +17,4 @@ public class Atividade1 {
 		}
 		return pessoasEncontradas;
 	}
-
 }

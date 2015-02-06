@@ -59,12 +59,6 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-<<<<<<< HEAD
-  <testcase classname="br.com.dextra.estagio2015.atv06.Atividade6Test" name="testIdBanco" time="0.001">
-    <error message="Could not initialize class br.com.dextra.estagio2015.comum.JPAUtils" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class br.com.dextra.estagio2015.comum.JPAUtils
-	at br.com.dextra.estagio2015.atv06.Atividade6Test.criaBanco(Atividade6Test.java:38)
-	at br.com.dextra.estagio2015.atv06.Atividade6Test.testIdBanco(Atividade6Test.java:25)
-=======
   <testcase time="0.001" classname="br.com.dextra.estagio2015.atv06.Atividade6Test" name="br.com.dextra.estagio2015.atv06.Atividade6Test">
     <error message="config" type="javax.naming.NameAlreadyBoundException">javax.naming.NameAlreadyBoundException: config
 	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:57)
@@ -76,7 +70,6 @@
 	at br.com.dextra.estagio2015.comum.JPA_DB_Utils.bindContext(JPA_DB_Utils.java:34)
 	at br.com.dextra.estagio2015.comum.JPA_DB_Utils.start(JPA_DB_Utils.java:26)
 	at br.com.dextra.estagio2015.atv06.Atividade6Test.setUp(Atividade6Test.java:17)
->>>>>>> a2f85a206e9a978d1980a9dba1cd3816e6604593
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
