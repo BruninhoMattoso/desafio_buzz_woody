@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 com/dextra/injectit/servlets/InjectServlet.class
 com/dextra/injectit/database/MockDatabase.class
-com/dextra/injectit/booter/ContextListener.class
-=======
-com/dextra/injectit/database/MockDatabase.class
->>>>>>> a83373cb29646b4fd9576b44d0ae4a4128cd7637
-com/dextra/injectit/database/Database.class
-com/dextra/injectit/booter/ContextListener.class
-com/dextra/injectit/servlets/InjectServlet.class
 com/dextra/injectit/database/User.class
+com/dextra/injectit/booter/ContextListener.class
+com/dextra/injectit/database/Database.class

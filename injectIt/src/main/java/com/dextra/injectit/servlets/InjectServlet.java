@@ -19,8 +19,8 @@ public class InjectServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1267446324696819053L;
 
-	//@Override
-	protected void doGet2(HttpServletRequest req, HttpServletResponse resp)
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		resp.setContentType("application/json");
 		resp.setCharacterEncoding("utf8");
