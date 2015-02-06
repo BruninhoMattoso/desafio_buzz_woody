@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.xml.ws.Response;
 
 import com.dextra.injectit.database.Database;
+import com.dextra.injectit.database.User;
 import com.google.gson.Gson;
 
 public class InjectServlet extends HttpServlet {
@@ -55,24 +56,31 @@ public class InjectServlet extends HttpServlet {
 			throws ServletException, IOException {
 		
 		// Nome dos usuario pesquisado
-		/*String name = req.getParameter("name");
+		String name = req.getParameter("name");
 		
 		ResultSet users = Database.execute("SELECT * FROM USER WHERE NAME = '" + name + "'");
 		ArrayList<User> searchedUsers = new ArrayList<User>();
 		try {
 			
+			users.first();
 			while (users.next()){
 				String userName = users.getString(1);
 				String userPassword = users.getString(2);
 				String userCard = users.getString(3);
 				User user = new User(userName,userPassword,userCard);
+				searchedUsers.add(user);
 			}
 			
 			Gson gson = new Gson();
-			gson.toJson(src);
+			ServletOutputStream os = resp.getOutputStream();
+			
+			os.print(gson.toJson(searchedUsers));
+			os.flush();
+			os.close();
+
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}	
-		*/
+		
 	}
 }
