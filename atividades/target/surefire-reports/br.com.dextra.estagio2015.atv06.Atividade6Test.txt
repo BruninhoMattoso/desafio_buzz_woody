@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: br.com.dextra.estagio2015.atv06.Atividade6Test
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-br.com.dextra.estagio2015.atv06.Atividade6Test  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+br.com.dextra.estagio2015.atv06.Atividade6Test  Time elapsed: 0.002 sec  <<< ERROR!
 javax.naming.NameAlreadyBoundException: config
 	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:57)
 	at com.googlecode.mycontainer.kernel.naming.MyContainerContext.bind(MyContainerContext.java:80)
