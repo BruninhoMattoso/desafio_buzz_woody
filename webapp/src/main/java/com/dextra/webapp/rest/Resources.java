@@ -76,6 +76,7 @@ public class Resources {
             contentType = Files.probeContentType(f.toPath());
         } catch (IOException e) {
             // do nothing
+        	throw new RuntimeException(e);
         }
 
         String mime = contentType == null ? (new MimetypesFileTypeMap()).getContentType(f) : contentType;
