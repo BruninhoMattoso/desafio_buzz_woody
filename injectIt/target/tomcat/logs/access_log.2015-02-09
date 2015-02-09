@@ -1,0 +1,6 @@
+127.0.0.1 - - [09/Feb/2015:09:51:19 -0200] "GET /injectIt/ HTTP/1.1" 200 582 http-bio-8080-exec-1 62
+127.0.0.1 - - [09/Feb/2015:09:51:19 -0200] "GET /injectIt/js/index.js HTTP/1.1" 200 597 http-bio-8080-exec-2 31
+127.0.0.1 - - [09/Feb/2015:09:51:19 -0200] "GET /injectIt/js/doT.js HTTP/1.1" 304 - http-bio-8080-exec-4 14
+127.0.0.1 - - [09/Feb/2015:09:51:19 -0200] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+127.0.0.1 - - [09/Feb/2015:09:51:19 -0200] "GET /injectIt/api/usuarios HTTP/1.1" 200 398 http-bio-8080-exec-5 101
+127.0.0.1 - - [09/Feb/2015:09:51:19 -0200] "GET /injectIt/templates/template.html HTTP/1.1" 200 296 http-bio-8080-exec-7 21
