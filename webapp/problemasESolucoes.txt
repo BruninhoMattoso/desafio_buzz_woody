@@ -1,0 +1,4 @@
+Problema: Projeto não era iniciado - solucao: Usar mvn package
+
+Problema: Erro na classe Hello! - causa: caracteres unicode são processador antes de compilar, portanto o eclipse não conseguia distinguir o erro - solucao: remover \u000d da string
+
