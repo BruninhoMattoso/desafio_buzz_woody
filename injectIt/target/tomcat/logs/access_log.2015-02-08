@@ -1,0 +1,10 @@
+127.0.0.1 - - [08/Feb/2015:22:34:56 -0200] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 0
+127.0.0.1 - - [08/Feb/2015:22:35:05 -0200] "GET /injectIt HTTP/1.1" 302 - http-bio-8080-exec-2 0
+127.0.0.1 - - [08/Feb/2015:22:35:05 -0200] "GET /injectIt/ HTTP/1.1" 200 582 http-bio-8080-exec-3 215
+127.0.0.1 - - [08/Feb/2015:22:35:05 -0200] "GET /injectIt/js/index.js HTTP/1.1" 200 597 http-bio-8080-exec-4 7
+127.0.0.1 - - [08/Feb/2015:22:35:05 -0200] "GET /injectIt/js/doT.js HTTP/1.1" 200 5163 http-bio-8080-exec-5 31
+127.0.0.1 - - [08/Feb/2015:22:35:06 -0200] "GET /injectIt/api/usuarios HTTP/1.1" 405 1065 http-bio-8080-exec-7 4
+127.0.0.1 - - [08/Feb/2015:22:35:10 -0200] "POST /injectIt/api/usuarios HTTP/1.1" 200 12 http-bio-8080-exec-8 58
+127.0.0.1 - - [08/Feb/2015:22:35:10 -0200] "GET /injectIt/templates/template.html HTTP/1.1" 200 296 http-bio-8080-exec-9 27
+127.0.0.1 - - [08/Feb/2015:22:35:14 -0200] "POST /injectIt/api/usuarios HTTP/1.1" 200 84 http-bio-8080-exec-10 10
+127.0.0.1 - - [08/Feb/2015:22:54:04 -0200] "GET /help/topic/com.vmware.ICbase/images/vmware_favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0

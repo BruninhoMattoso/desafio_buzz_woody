@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.dextra.injectit.database.Database;
+import com.dextra.injectit.database.MockDatabase;
 import com.dextra.injectit.database.User;
 import com.google.gson.Gson;
 
@@ -66,9 +67,11 @@ public class InjectServlet extends HttpServlet {
 		
 		// Nome dos usuario pesquisado
 		String name = req.getParameter("name");
+		String[] names = new String[1];
+		names[0] = name;
 		
-		String query = "SELECT * FROM USER WHERE NAME = '" + name + "'";
-		ResultSet users = Database.execute(query);
+		String query = "SELECT * FROM USER WHERE NAME = ?";
+		ResultSet users = Database.execute(query,names);
 		
 		ArrayList<User> searchedUsers = new ArrayList<User>();
 		try {
@@ -93,13 +96,19 @@ public class InjectServlet extends HttpServlet {
 	public static void main(String[] args) {
 		/////////////////
 		// TESTE DE SQL INJECTION
-		
-		
-		String query = "SELECT * FROM USER WHERE NAME = ?";
-		ResultSet users = Database.execute(query);
-		
-		ArrayList<User> searchedUsers = new ArrayList<User>();
 		try {
+			MockDatabase.execute();
+			
+			
+			String query = "{call sp_getUser(?)}";
+		
+			Object []objs = new Object [1];
+			objs[0] = "Jefferson";
+			
+			ResultSet users = Database.executeStoredPrcedure(query, objs);
+		
+			ArrayList<User> searchedUsers = new ArrayList<User>();
+		
 			
 			while (users.next()){
 				searchedUsers.add(new User(users.getString(1),users.getString(2),users.getString(3)));
@@ -108,7 +117,7 @@ public class InjectServlet extends HttpServlet {
 			Gson gson = new Gson();
 			System.out.println(gson.toJson(searchedUsers));
 
-		} catch (SQLException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}	
 	}
