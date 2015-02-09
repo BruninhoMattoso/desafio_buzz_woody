@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<<<<<<< HEAD
-<testsuite tests="3" failures="0" name="br.com.dextra.estagio2015.atv07.Atividade7Test" time="2.009" errors="0" skipped="0">
-=======
-<testsuite failures="0" time="2.334" errors="0" skipped="0" tests="3" name="br.com.dextra.estagio2015.atv07.Atividade7Test">
->>>>>>> 39b5a2832805d4d6e90834fdc73afdb38bb81bf2
+<testsuite tests="3" failures="0" name="br.com.dextra.estagio2015.atv07.Atividade7Test" time="1.939" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/opt/java-stuff/jdk1.8.0_20/jre/lib/amd64"/>
@@ -63,13 +59,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-<<<<<<< HEAD
-  <testcase classname="br.com.dextra.estagio2015.atv07.Atividade7Test" name="testeProdutos" time="2.006"/>
+  <testcase classname="br.com.dextra.estagio2015.atv07.Atividade7Test" name="verificaString" time="0.007"/>
   <testcase classname="br.com.dextra.estagio2015.atv07.Atividade7Test" name="verificaData" time="0.002"/>
-  <testcase classname="br.com.dextra.estagio2015.atv07.Atividade7Test" name="verificaString" time="0.001"/>
-=======
-  <testcase time="0.003" classname="br.com.dextra.estagio2015.atv07.Atividade7Test" name="verificaData"/>
-  <testcase time="0.001" classname="br.com.dextra.estagio2015.atv07.Atividade7Test" name="verificaString"/>
-  <testcase time="2.33" classname="br.com.dextra.estagio2015.atv07.Atividade7Test" name="testeProdutos"/>
->>>>>>> 39b5a2832805d4d6e90834fdc73afdb38bb81bf2
+  <testcase classname="br.com.dextra.estagio2015.atv07.Atividade7Test" name="testeProdutos" time="1.93"/>
 </testsuite>

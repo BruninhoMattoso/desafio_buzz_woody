@@ -60,6 +60,7 @@ public class TesteControleRemoto {
 		assertCanal(tv, controle, "canal anterior", 6);
 		assertCanal(tv, controle, "canal proximo", 7);
 		assertCanal(tv, controle, "canal proximo", 8);
+		assertCanal(tv, controle, "60");
 	}
 	
 
@@ -90,7 +91,7 @@ public class TesteControleRemoto {
 		
 		click(controle, tecla);
 		
-		assertEquals(tecla, "0" + tv.getCanal());
+		assertEquals((int)NumberUtils.asInt(tecla), tv.getCanal());
 		assertEquals(tecla, controle.getDisplay());
 		
 		controle.setDisplay("");

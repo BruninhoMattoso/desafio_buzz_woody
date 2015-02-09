@@ -369,3 +369,23 @@
 127.0.0.1 - - [06/Feb/2015:14:58:30 -0200] "GET /injectIt/api/usuarios HTTP/1.1" 200 84 http-bio-8080-exec-5 5
 127.0.0.1 - - [06/Feb/2015:14:58:30 -0200] "GET /injectIt/templates/template.html HTTP/1.1" 200 296 http-bio-8080-exec-6 1
 >>>>>>> a83373cb29646b4fd9576b44d0ae4a4128cd7637
+127.0.0.1 - - [06/Feb/2015:15:09:18 -0200] "GET /injectIt/ HTTP/1.1" 304 - http-bio-8080-exec-1 42
+127.0.0.1 - - [06/Feb/2015:15:09:18 -0200] "GET /injectIt/js/index.js HTTP/1.1" 304 - http-bio-8080-exec-2 7
+127.0.0.1 - - [06/Feb/2015:15:09:18 -0200] "GET /injectIt/js/doT.js HTTP/1.1" 304 - http-bio-8080-exec-3 17
+127.0.0.1 - - [06/Feb/2015:15:09:18 -0200] "GET /injectIt/api/usuarios HTTP/1.1" 200 84 http-bio-8080-exec-4 18
+127.0.0.1 - - [06/Feb/2015:15:09:18 -0200] "GET /injectIt/templates/template.html HTTP/1.1" 200 296 http-bio-8080-exec-6 4
+127.0.0.1 - - [06/Feb/2015:15:09:24 -0200] "POST /injectIt/api/usuarios HTTP/1.1" 200 90 http-bio-8080-exec-7 80
+127.0.0.1 - - [06/Feb/2015:15:09:26 -0200] "GET /injectIt/ HTTP/1.1" 304 - http-bio-8080-exec-8 1
+127.0.0.1 - - [06/Feb/2015:15:09:26 -0200] "GET /injectIt/js/doT.js HTTP/1.1" 304 - http-bio-8080-exec-5 2
+127.0.0.1 - - [06/Feb/2015:15:09:26 -0200] "GET /injectIt/js/index.js HTTP/1.1" 304 - http-bio-8080-exec-9 5
+127.0.0.1 - - [06/Feb/2015:15:09:27 -0200] "GET /injectIt/api/usuarios HTTP/1.1" 200 84 http-bio-8080-exec-1 1
+127.0.0.1 - - [06/Feb/2015:15:09:30 -0200] "POST /injectIt/api/usuarios HTTP/1.1" 200 90 http-bio-8080-exec-1 10
+127.0.0.1 - - [06/Feb/2015:15:09:45 -0200] "GET /injectIt/ HTTP/1.1" 304 - http-bio-8080-exec-1 2
+127.0.0.1 - - [06/Feb/2015:15:09:45 -0200] "GET /injectIt/js/index.js HTTP/1.1" 304 - http-bio-8080-exec-4 1
+127.0.0.1 - - [06/Feb/2015:15:09:45 -0200] "GET /injectIt/js/doT.js HTTP/1.1" 304 - http-bio-8080-exec-10 1
+127.0.0.1 - - [06/Feb/2015:15:09:45 -0200] "GET /injectIt/api/usuarios HTTP/1.1" 200 84 http-bio-8080-exec-4 0
+127.0.0.1 - - [06/Feb/2015:15:09:52 -0200] "POST /injectIt/api/usuarios HTTP/1.1" 200 84 http-bio-8080-exec-4 6
+127.0.0.1 - - [06/Feb/2015:15:09:52 -0200] "GET /injectIt/templates/template.html HTTP/1.1" 304 - http-bio-8080-exec-5 2
+127.0.0.1 - - [06/Feb/2015:15:10:00 -0200] "POST /injectIt/api/usuarios HTTP/1.1" 200 12 http-bio-8080-exec-5 5
+127.0.0.1 - - [06/Feb/2015:15:10:04 -0200] "POST /injectIt/api/usuarios HTTP/1.1" 200 90 http-bio-8080-exec-2 3
+127.0.0.1 - - [06/Feb/2015:15:10:15 -0200] "POST /injectIt/api/usuarios HTTP/1.1" 200 94 http-bio-8080-exec-2 5
