@@ -8,6 +8,14 @@ public class MockDatabase {
 				+ "password VARCHAR(100) NOT NULL, "
 				+ "creditCardNumber VARCHAR(12) NOT NULL)";
 		Database.execute(create);
+		
+		String sp = "CREATE PROCEDURE sp_getUser "
+				+ "(@user VARCHAR(100)) "
+				+ "AS "
+				+ "BEGIN "
+				+ "SELECT * FROM USER WHERE NAME = @user "
+				+ "END";
+		Database.execute(sp);
 
 		insertUser("Guilherme", "EuAmoGatinhos", "123456789012");
 		insertUser("Bruno", "LaFooon", "187456779012");
