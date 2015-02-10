@@ -32,8 +32,6 @@ public class Atividade4Test {
 		cliente = CaixaEletronico.adicionaContaParaCliente(cliente, conta2);
 		
 		assertEquals(2,cliente.getContas().size());
-		//FIXME esse teste nao testa nada
-		//FIXED ?
 	}
 
 	@Test 

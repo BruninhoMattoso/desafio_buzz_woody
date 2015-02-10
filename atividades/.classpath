@@ -7,7 +7,7 @@
   <classpathentry kind="var" path="M2_REPO/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/mail/mail/1.4/mail-1.4.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar"/>
-  <classpathentry kind="var" path="M2_REPO/javax/transaction/jta/1.1/jta-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/transaction/jta/1.1/jta-1.1.jar" sourcepath="M2_REPO/javax/transaction/jta/1.1/jta-1.1-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/el/el-api/2.2/el-api-2.2.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/xml/jaxrpc-api/1.1/jaxrpc-api-1.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"/>
@@ -29,7 +29,7 @@
   <classpathentry kind="var" path="M2_REPO/com/googlecode/mycontainer/mycontainer-servlet-commons/1.4.4/mycontainer-servlet-commons-1.4.4.jar"/>
   <classpathentry kind="var" path="M2_REPO/com/googlecode/mycontainer/mycontainer-jpa/1.4.4/mycontainer-jpa-1.4.4.jar"/>
   <classpathentry kind="var" path="M2_REPO/com/googlecode/mycontainer/mycontainer-jta/1.4.4/mycontainer-jta-1.4.4.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar" sourcepath="M2_REPO/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/hibernate/hibernate-entitymanager/4.2.6.Final/hibernate-entitymanager-4.2.6.Final.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/hibernate/hibernate-core/4.2.6.Final/hibernate-core-4.2.6.Final.jar"/>
   <classpathentry kind="var" path="M2_REPO/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>

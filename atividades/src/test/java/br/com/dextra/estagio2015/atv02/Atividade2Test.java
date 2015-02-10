@@ -1,6 +1,6 @@
 package br.com.dextra.estagio2015.atv02;
 
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
@@ -12,7 +12,8 @@ public class Atividade2Test {
 	public void teste1() {
 		Filho f = new Filho("FilhoTeste");
 
-		assertNotNull(f.abstrado());
+		assertNotNull(f.getNome());
+		assertEquals("FilhoTeste", f.getNome());
 	}
 
 }

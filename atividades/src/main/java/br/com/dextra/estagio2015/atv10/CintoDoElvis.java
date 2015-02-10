@@ -3,7 +3,9 @@ package br.com.dextra.estagio2015.atv10;
 import java.util.Calendar;
 
 /**
- * Alteramos a forma como o programa estava acessando a instancia dessa classe
+ * Alteramos a forma como o programa inicializando a instancia.
+ * Instancia como constante para ter apenas uma instancia rodando, sempre?
+ * 
  */
 
 /**
@@ -13,11 +15,13 @@ import java.util.Calendar;
  * estivesse vivo este ano.
  */
 public class CintoDoElvis {
+	public static final CintoDoElvis INSTANCIA = new CintoDoElvis();
 	private final int tamanhoDoCinto;
-	private static final int ANO_ATUAL = Calendar.getInstance().get(Calendar.YEAR);
+	private int ano_atual;
 
 	public CintoDoElvis() {
-		tamanhoDoCinto = ANO_ATUAL - 1930;
+		ano_atual = Calendar.getInstance().get(Calendar.YEAR);
+		tamanhoDoCinto = ano_atual - 1930;
 	}
 
 	public int getTamanhoDoCinto() {

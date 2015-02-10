@@ -1,5 +1,6 @@
 package br.com.dextra.estagio2015.atv16;
 
+import br.com.dextra.estagio2015.at16.teclas.Tecla;
 import br.com.dextra.estagio2015.atv16.tv.Televisao;
 
 /**
@@ -29,32 +30,8 @@ public class ControleRemoto {
 		return display;
 	}
 
-	public void clickon(String botao) {
-		if (NumberUtils.isNumber(botao)) {
-			// Se o primeiro caracter é zero
-			tv.setCanal(NumberUtils.asInt(botao));
-			this.display = botao;
-		} else {
-			if (botao.contains("volume")) {
-				if (botao.equalsIgnoreCase("abaixar volume")) {
-					this.display = String.valueOf(tv.abaixarVolume()
-							.getVolume());
-				} else {
-					this.display = String.valueOf(tv.aumentarVolume()
-							.getVolume());
-				}
-			} else if (botao.contains("canal")) {
-				if (botao.equalsIgnoreCase("canal anterior")) {
-					this.display = String
-							.valueOf(tv.canalAnterior().getCanal());
-				} else {
-					this.display = String.valueOf(tv.proximoCanal().getCanal());
-				}
-			} else if (botao.equals("liga")) {
-				tv.setLigada(true);
-			} else if (botao.equals("desliga")) {
-				tv.setLigada(false);
-			}
-		}
+	public void clickon(Tecla tecla) {
+		tecla.constructor(tv, this);
+		tecla.click();
 	}
 }

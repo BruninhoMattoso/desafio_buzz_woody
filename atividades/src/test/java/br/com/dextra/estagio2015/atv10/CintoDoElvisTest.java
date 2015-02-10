@@ -12,8 +12,9 @@ public class CintoDoElvisTest {
 	@Test
 	public void qualOTamanhoDoCintoDoElvisHoje() {
 		int tamanhoPrevisto = Calendar.getInstance().get(Calendar.YEAR) - 1930;
-		CintoDoElvis cintoDoElvis = new CintoDoElvis();
+//		CintoDoElvis cintoDoElvis = new CintoDoElvis();
 		
-		Assert.assertEquals(tamanhoPrevisto, cintoDoElvis.getTamanhoDoCinto());
+		Assert.assertEquals(tamanhoPrevisto,
+				CintoDoElvis.INSTANCIA.getTamanhoDoCinto());
 	}
 }

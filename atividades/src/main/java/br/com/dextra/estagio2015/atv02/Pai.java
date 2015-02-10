@@ -4,10 +4,11 @@ public abstract class Pai {
 	
 	/**
 	 * [WOODY] Excluímos o construtor da classe
+	 * Alteramos o nome do método abstrado
 	 */
 	
 	protected String nome;
 
-	public abstract String abstrado();
+	public abstract String getNome();
 
 }

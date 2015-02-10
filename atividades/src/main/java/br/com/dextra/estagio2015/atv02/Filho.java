@@ -4,6 +4,7 @@ public class Filho extends Pai {
 
 	/**
 	 * [WOODY] Adicionamos o parâmetro no construtor.
+	 * Alteramos o nome do método abstrado
 	 * @param nome
 	 */
 	
@@ -12,7 +13,7 @@ public class Filho extends Pai {
 	}
 
 	@Override
-	public String abstrado() {
+	public String getNome() {
 		return nome;
 	}
 }

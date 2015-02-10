@@ -25,6 +25,12 @@ import br.com.dextra.estagio2015.atv12.Sogra;
  *
  */
 
+/**
+ * 
+ * @author laura.boscolo
+ *
+ */
+
 public class KombiTest {
 
 	private static Kombi kombi = new Kombi();
@@ -34,8 +40,8 @@ public class KombiTest {
 	public void colocarSograNaKombi() {
 		kombi.add(new Pessoa("sograprimeira"));
 		for (Sogra s : kombi.sogras)
-			System.out.println("lala"+s.getNome());
-		System.out.println("Size:"+kombi.sogras.size());
+			System.out.println("Nome:" + s.getNome());
+		System.out.println("Tamanho:"+kombi.sogras.size());
 		
 		kombi.viaja();
 	}
@@ -52,5 +58,4 @@ public class KombiTest {
 			return super.hashCode();
 		}
 	}
-
 }
