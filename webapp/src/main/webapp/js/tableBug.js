@@ -5,7 +5,8 @@
 			for ( var i = 0; i < trs.length; i++) {
 				var tr = $(trs[i]);
 				var id = tr.find('.id').text();
-				dg.serviceTable().find(parseInt(id)).done(function(desc) {
+				var deffered = dg.serviceTable().find(parseInt(id));
+				deffered.done(function(desc) {
 					tr.find('.description').text(desc.desc);
 				});
 			}
