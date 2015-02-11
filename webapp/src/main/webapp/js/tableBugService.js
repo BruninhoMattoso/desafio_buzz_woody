@@ -14,14 +14,13 @@
 		}];
 		
 		function find(idx){
-			return {
-				done:function(success){
-					setTimeout(function(){
-						success(values[idx - 1]);
-					}, 2000);
-				}
-			}
+			var def = $.Deferred();
+			setTimeout(function(){
+				def.promisse();
+			}, 2000);
+			return def.resolve(values[idx - 1]);
 		}
+	
 		
 		return {
 			find : find
